@@ -1,10 +1,11 @@
 <script lang="ts" setup>
-import { RouterView } from 'vue-router'
+import AddPlayer from '@/components/add-player/AddPlayer.vue'
 </script>
 
 <template>
   <h1>Hello World</h1>
-  <RouterView />
+  <AddPlayer />
+  <!--  <RouterView />-->
 </template>
 
 <style scoped></style>
